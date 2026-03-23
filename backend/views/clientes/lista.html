@@ -32,19 +32,44 @@
 <aside class="sidebar">
  <h4>Menu</h4>
  <nav>
- <a href="../clientes/lista.html"><i class="fas fa-users"></i> &ensp; Clientes</a>
+ <a href="lista.html"><i class="fas fa-users"></i> &ensp; Clientes</a>
  <a href="../agendamento/agendamento.html"><i class="fas fa-calendar-alt"></i> &ensp; Agendamento de treinos</a>
  <a href="../plano_treino/plano_treino.html"><i class="fas fa-dumbbell"></i> &ensp; Planos de Treino</a>
  <a href="../equipamentos/equipamentos.html"><i class="fas fa-cogs"></i> &ensp; Equipamentos</a>
- <a href="produtos_servicos.html"><i class="fas fa-box-open"></i> &ensp; Produtos e Serviços</a>
- </nav>
+ <a href="../produtos_servicos/produtos_servicos.html"><i class="fas fa-box-open"></i> &ensp; Produtos e Serviços</a>
 </aside>
 <!-- Conteúdo Principal -->
-<main class="content">
- <section>
- <h2>Produtos e serviços</h2>
- <p>Escolha os produtos e serviços mais adequados para si.</p>
- </section>
-</main>
-</body>
-</html> 
+<div class="content">
+ <div class="actions-top">
+ <h2><strong><i class="fa-solid fa-address-book"></i> Listagem de Clientes </strong></h2> <a href="novo.html"><i class="fa-solid fa-plus me-2"></i> Novo cliente</a> </div>
+<br>
+<hr>
+<p>Não existem clientes registados.</p>
+ <table>
+ <thead>
+ <tr>
+ <th>Nome</th>
+ <th>Sexo</th>
+ <th>Data nascimento</th>
+ <th>Email</th>
+ <th>Telefone</th>
+ <th>Sistema de Saúde</th>
+ <th></th>
+ </tr>
+ </thead>
+<tbody>
+ <tr>
+ <td>[Nome Cliente]</td>
+ <td>[Sexo]</td>
+ <td>[data_Nasc]</td>
+ <td>[email]</td>
+ <td>[Telefone]</td>
+ <td>[sistema_saude]</td>
+ <td>
+ <a href="detalhes.html"><i class="fa-solid fa-eye me-2"></i> Consultar</a> <span>|</span>
+ <a href="editar.html"><i class="fa-regular fa-pen-to-square me-2"></i> Editar</a> <span>|</span>
+ <a href="apagar.html"><i class="fa-solid fa-trash-can me-2"></i> Eliminar</a> </td>
+ </tr>
+ </tbody>
+ </table>
+</div>
