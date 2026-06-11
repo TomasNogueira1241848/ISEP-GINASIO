@@ -1,8 +1,6 @@
 <?php include '../private/includes/header.php'; ?> 
 
 <body>
-
-
  <div class="container-fluid mt-5">
     <div class="row justify-content-center">
         <div class="col-lg-5 col-md-6 col-sm-8 col-10">
@@ -21,16 +19,17 @@
                         </div>
                     </div>
 
-                <form action="../private/index.html" method="post"> 
+                <form action="../private/index.php" method="post"> 
                     <div class="mb-3">
                         <!-- Utilizador -->
                         <label for="email" class="form-label">Utilizador</label>
-                        <input type="email" name="email" id="email" class="form-control">
+                        <input type="email" class="form-control" name="text_username" id="">
                     </div>
                     <div class="mb-3">
                      <!-- Password -->
                         <label for="password" class="form-label">Password</label>
-                        <input type="password" name="password" id="password" class="form-control">
+                        <input type="password" class="form-control" name="text_password" id=""> 
+
                     </div>
                     <div class="mb-3 text-center">
                         <!-- Submit -->
