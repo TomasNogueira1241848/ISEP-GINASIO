@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>ISEP Ginásio</title>
- <!-- Bootstrap CSS & custom CSS -->
-<link rel="stylesheet" href="../private/assets/bootstrap/bootstrap.min.css"> 
- <link rel="stylesheet" href="public/assets/css/estilos.css">
- <!-- favicon -->
- <link rel="shortcut icon" href="public/assets/img/gym125.png" type="image/png">
- <!-- Font Awesome -->
-  <link rel="stylesheet" href="public/assets/css/estilos.css">
-  <!-- Google Fonts -->
-   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap" rel="stylesheet">
-</head>
+<?php include '../private/includes/header.php'; ?> 
+
 <body>
- <!-- Bootstrap JS and custom JS -->
- <script src="public/assets/bootstrap/bootstrap.bundle.min.js"></script>
+
 
  <div class="container-fluid mt-5">
     <div class="row justify-content-center">
@@ -25,8 +10,9 @@
             <div class="card p-4">
                 <div class="d-flex align-items-center justify-content-center my-4">
                         <!-- Imagem do ginásio + texto -->
-                        <img src="../frontend/assets/img/gym125.png">
-                        <h2><strong>ISEP - Ginásio</strong></h2>
+                        <img src="/isep-ginasio/private/assets/img/gym125.png" class="img-fluid me-3">
+                        <h2><strong> <?php echo APP_NAME; ?></strong></h2> 
+
                     </div>
 
                     <div class="row">
@@ -62,4 +48,5 @@
     </div> 
 </div> 
 </body>
-</html>
+
+<?php include '../private/includes/footer.php'; ?>
