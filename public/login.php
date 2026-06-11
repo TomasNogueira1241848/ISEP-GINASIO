@@ -5,18 +5,18 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>ISEP Ginásio</title>
  <!-- Bootstrap CSS & custom CSS -->
-<link rel="stylesheet" href="../frontend/assets/bootstrap/bootstrap.min.css"> 
- <link rel="stylesheet" href="../frontend/assets/css/estilos.css">
+<link rel="stylesheet" href="../private/assets/bootstrap/bootstrap.min.css"> 
+ <link rel="stylesheet" href="public/assets/css/estilos.css">
  <!-- favicon -->
- <link rel="shortcut icon" href="../frontend/assets/img/gym125.png" type="image/png">
+ <link rel="shortcut icon" href="public/assets/img/gym125.png" type="image/png">
  <!-- Font Awesome -->
-  <link rel="stylesheet" href="../frontend/assets/fontawesome/all.min.css">
+  <link rel="stylesheet" href="public/assets/css/estilos.css">
   <!-- Google Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
  <!-- Bootstrap JS and custom JS -->
- <script src="../frontend/assets/bootstrap/bootstrap.bundle.min.js"></script>
+ <script src="public/assets/bootstrap/bootstrap.bundle.min.js"></script>
 
  <div class="container-fluid mt-5">
     <div class="row justify-content-center">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
 
-                <form action="../backend/index.html" method="post"> 
+                <form action="../private/index.html" method="post"> 
                     <div class="mb-3">
                         <!-- Utilizador -->
                         <label for="email" class="form-label">Utilizador</label>
