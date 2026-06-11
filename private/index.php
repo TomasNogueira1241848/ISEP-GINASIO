@@ -1,9 +1,13 @@
+<?php
+require_once __DIR__ . '/../config/config.php';
+?>
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>ISEP Ginásio</title>
+ <title><?php echo APP_NAME; ?></title> 
  <!-- favicon -->
 <link rel="shortcut icon" href="assets/img/gym125.png" type="image/png">
 <!-- folha de estilos CSS -->
@@ -26,7 +30,7 @@
             <a href="index.html">
             <img alt="Logo do ISEP Ginásio" height="50" src="assets/img/gym125_white.png"/>
             </a>
-            <h3 class="mb-0">ISEP Ginásio</h3>
+            <h3 class="mb-0"><?php echo APP_NAME; ?></h3>
         </div>
         <div class="col-6 text-end p-3">
             <div class="dropdown">
